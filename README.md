@@ -24,27 +24,31 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 ### Cara Install
 
 1. **Clone Repository**
-  '''bash
+  ```bash
   git clone https://github.com/username/repo-name.git
   cd repo-name
+  ```
 
 2. **Buat Virtual Environment** (Opsional tetapi direkomendasikan)
-  '''bash
+  ```bash
   python -m venv venv
   source venv/bin/activate  # Untuk Linux/Mac
   venv\Scripts\activate  # Untuk Windows
+  ```
 
 3. **Instal Dependensi**
-  '''bash
+  ```bash
   pip install -r requirements.txt
+  ```
 
 4. **Konfigurasi LM Studio**
   Pastikan LM Studio sudah berjalan dan model telah dimuat.
   Gunakan URL lokal yang sesuai untuk API LM Studio (default: http://127.0.0.1:1234/v1).
 
 5. **Jalankan Aplikasi**
-''' bash
-streamlit run chatbot.py '''
+   ```bash
+   streamlit run chatbot.py
+   ```
 
 ## Penggunaan
 
