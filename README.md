@@ -1,11 +1,10 @@
-# Chatbot_UI
-Chatbot UI dengan Streamlit dan LM Studio
+# Chatbot UI dengan Streamlit dan LM Studio
 
-Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini adalah antarmuka chatbot sederhana menggunakan Streamlit yang menghubungkan model bahasa besar (LLM) yang tersedia di LM Studio. Chatbot ini dapat berkomunikasi dengan pengguna dan memberikan respons yang relevan sesuai dengan input yang diberikan.
 
-Fitur Utama
+## Fitur Utama
 
 Antarmuka Sederhana: Menggunakan Streamlit untuk membuat UI chatbot.
 
@@ -15,9 +14,9 @@ Streaming Respon: Menampilkan jawaban chatbot secara real-time.
 
 Menyimpan Riwayat Chat: Percakapan sebelumnya tetap tersedia selama sesi aplikasi berjalan.
 
-Instalasi
+## Instalasi
 
-Persyaratan
+## Persyaratan
 
 Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 
@@ -27,52 +26,50 @@ LM Studio (dengan model yang telah dikonfigurasi)
 
 Paket Python yang diperlukan
 
-Cara Install
+## Cara Install
 
-Clone Repository
+1. Clone Repository
 
 git clone https://github.com/username/repo-name.git
 cd repo-name
 
-Buat Virtual Environment (Opsional tetapi direkomendasikan)
+2. Buat Virtual Environment (Opsional tetapi direkomendasikan)
 
 python -m venv venv
 source venv/bin/activate  # Untuk Linux/Mac
 venv\Scripts\activate  # Untuk Windows
 
-Instal Dependensi
+3. Instal Dependensi
 
 pip install -r requirements.txt
 
-Konfigurasi LM Studio
+4. Konfigurasi LM Studio
 
 Pastikan LM Studio sudah berjalan dan model telah dimuat.
 
 Gunakan URL lokal yang sesuai untuk API LM Studio (default: http://127.0.0.1:1234/v1).
 
-Jalankan Aplikasi
+5. Jalankan Aplikasi
 
 streamlit run chatbot.py
 
-Penggunaan
+## Penggunaan
 
-Buka browser dan akses alamat yang ditampilkan oleh Streamlit.
+1. Buka browser dan akses alamat yang ditampilkan oleh Streamlit.
 
-Mulai percakapan dengan chatbot.
+2. Mulai percakapan dengan chatbot.
 
-Riwayat chat akan tetap tersedia selama sesi berjalan.
+3. Riwayat chat akan tetap tersedia selama sesi berjalan.
 
-Struktur Kode
+## Struktur Kode
 
 |-- chatbot.py  # Kode utama aplikasi
 |-- requirements.txt  # Daftar dependensi
 |-- README.md  # Dokumentasi proyek
 
-Pengembang
+## Pengembang
 
-Nama: Abulkhair Rizvan YahyaEmail: email@example.comLinkedIn: linkedin.com/in/username
-
-Dengan README ini, proyek Anda akan lebih mudah dipahami oleh calon rekruter atau siapa pun yang melihat GitHub Anda.
-
-Selanjutnya, saya bisa membantu membuat skrip video agar Anda bisa menjelaskan proyek ini dengan baik. Apakah Anda ingin penjelasan lebih teknis atau lebih umum untuk skrip videonya?
+**Nama:** Abulkhair Rizvan Yahya  
+**Email:** [aburnyh.yahya@gmail.com](mailto:aburnyh.yahya@google.com)  
+**LinkedIn:** [linkedin.com/in/arizvanyahya](https://linkedin.com/in/arizvanyahya)
 
