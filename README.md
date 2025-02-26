@@ -58,9 +58,11 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 
 ## Struktur Kode
 
-|-- chatbot.py  # Kode utama aplikasi
-|-- requirements.txt  # Daftar dependensi
-|-- README.md  # Dokumentasi proyek
+```
+|-- chatbot.py  # Kode utama aplikasi |
+|-- requirements.txt  # Daftar dependensi |
+|-- README.md  # Dokumentasi proyek |
+```
 
 ## Pengembang
 
