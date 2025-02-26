@@ -6,60 +6,51 @@ Proyek ini adalah antarmuka chatbot sederhana menggunakan Streamlit yang menghub
 
 ## Fitur Utama
 
-Antarmuka Sederhana: Menggunakan Streamlit untuk membuat UI chatbot.
-
-Integrasi dengan LM Studio: Memanfaatkan model bahasa besar yang berjalan di lokal.
-
-Streaming Respon: Menampilkan jawaban chatbot secara real-time.
-
-Menyimpan Riwayat Chat: Percakapan sebelumnya tetap tersedia selama sesi aplikasi berjalan.
+- **Antarmuka Sederhana**: Menggunakan Streamlit untuk membuat UI chatbot.
+- **Integrasi dengan LM Studio**: Memanfaatkan model bahasa besar yang berjalan di lokal.
+- **Streaming Respon**: Menampilkan jawaban chatbot secara real-time.
+- **Menyimpan Riwayat Chat**: Percakapan sebelumnya tetap tersedia selama sesi aplikasi berjalan.
 
 ## Instalasi
 
-## Persyaratan
+### Persyaratan
 
 Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 
-Python (>=3.8)
+- **Python** (>=3.8)
+- **LM Studio** (dengan model yang telah dikonfigurasi)
+- **Paket Python yang diperlukan**
 
-LM Studio (dengan model yang telah dikonfigurasi)
+### Cara Install
 
-Paket Python yang diperlukan
+1. **Clone Repository**
+  '''bash
+  git clone https://github.com/username/repo-name.git
+  cd repo-name
 
-## Cara Install
+2. **Buat Virtual Environment** (Opsional tetapi direkomendasikan)
+  '''bash
+  python -m venv venv
+  source venv/bin/activate  # Untuk Linux/Mac
+  venv\Scripts\activate  # Untuk Windows
 
-1. Clone Repository
+3. **Instal Dependensi**
+  '''bash
+  pip install -r requirements.txt
 
-git clone https://github.com/username/repo-name.git
-cd repo-name
+4. **Konfigurasi LM Studio**
+  Pastikan LM Studio sudah berjalan dan model telah dimuat.
+  Gunakan URL lokal yang sesuai untuk API LM Studio (default: http://127.0.0.1:1234/v1).
 
-2. Buat Virtual Environment (Opsional tetapi direkomendasikan)
-
-python -m venv venv
-source venv/bin/activate  # Untuk Linux/Mac
-venv\Scripts\activate  # Untuk Windows
-
-3. Instal Dependensi
-
-pip install -r requirements.txt
-
-4. Konfigurasi LM Studio
-
-Pastikan LM Studio sudah berjalan dan model telah dimuat.
-
-Gunakan URL lokal yang sesuai untuk API LM Studio (default: http://127.0.0.1:1234/v1).
-
-5. Jalankan Aplikasi
-
+5. **Jalankan Aplikasi**
+''' bash
 streamlit run chatbot.py
 
 ## Penggunaan
 
-1. Buka browser dan akses alamat yang ditampilkan oleh Streamlit.
-
-2. Mulai percakapan dengan chatbot.
-
-3. Riwayat chat akan tetap tersedia selama sesi berjalan.
+1. **Buka browser dan akses alamat yang ditampilkan oleh Streamlit.**
+2. **Mulai percakapan dengan chatbot.**
+3. **Riwayat chat akan tetap tersedia selama sesi berjalan.**
 
 ## Struktur Kode
 
