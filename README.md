@@ -44,7 +44,7 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 
 5. **Jalankan Aplikasi**
 ''' bash
-streamlit run chatbot.py
+streamlit run chatbot.py '''
 
 ## Penggunaan
 
